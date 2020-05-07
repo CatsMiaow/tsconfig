@@ -1,0 +1,23 @@
+{
+  "name": "@catsmiaow/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript config",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "github:CatsMiaow/tsconfig",
+  "bugs": {
+    "url": "https://github.com/CatsMiaow/tsconfig/issues"
+  },
+  "author": "CatsMiaow",
+  "homepage": "https://github.com/CatsMiaow/tsconfig#readme",
+  "license": "UNLICENSED"
+}
