@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm i @catsmiaow/tsconfig
+npm i -D @catsmiaow/tsconfig
 ```
 
 ## Usage
