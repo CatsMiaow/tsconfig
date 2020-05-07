@@ -14,7 +14,8 @@ npm i -D @catsmiaow/tsconfig
 {
   "extends": "@catsmiaow/tsconfig",
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "noUnusedParameters": false
   },
   "include": [
     "src/**/*"
