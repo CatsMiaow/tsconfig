@@ -1,5 +1,7 @@
 # @CatsMiaow/tsconfig
 
+Shared TypeScript configurations for projects
+
 ## Install
 
 ```sh
