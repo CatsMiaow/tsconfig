@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    // https://node.green
+    "target": "ES2019",
     "module": "commonjs",
     "moduleResolution": "node",
     "declaration": true,
