@@ -4,6 +4,7 @@
     "target": "ES2019",
     "module": "commonjs",
     "moduleResolution": "node",
+    "incremental": true,
     "declaration": true,
     "newLine": "lf",
     "strict": true,
