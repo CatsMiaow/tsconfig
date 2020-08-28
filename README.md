@@ -2,7 +2,11 @@
 
 Shared TypeScript configurations for projects
 
-## Install
+## Configuration
+
+`Installing a package`on [Configuring npm for use with GitHub Packages](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#installing-a-package)
+
+## Installation
 
 ```sh
 npm i -D @catsmiaow/tsconfig
@@ -19,11 +23,7 @@ npm i -D @catsmiaow/tsconfig
     "outDir": "dist",
     "noUnusedParameters": false
   },
-  "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
 ```
