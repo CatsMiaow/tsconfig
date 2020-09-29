@@ -16,7 +16,6 @@
     "sourceMap": true,
     "inlineSources": true,
     "forceConsistentCasingInFileNames": true,
-    "esModuleInterop": true,
     "skipLibCheck": true
   }
 }
