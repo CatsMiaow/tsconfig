@@ -8,6 +8,7 @@
     "declaration": true,
     "newLine": "lf",
     "strict": true,
+    "importsNotUsedAsValues": "error",
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
     // "noUncheckedIndexedAccess": true,
