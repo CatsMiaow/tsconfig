@@ -10,7 +10,8 @@
     "strict": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "exactOptionalPropertyTypes": true,
+    // FIXME: TypeScript 4.4
+    // "exactOptionalPropertyTypes": true,
     "importsNotUsedAsValues": "error",
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
