@@ -1,6 +1,6 @@
 {
   "name": "@catsmiaow/tsconfig",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Shared TypeScript config",
   "main": "tsconfig.json",
   "files": [
