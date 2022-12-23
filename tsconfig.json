@@ -23,6 +23,7 @@
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": false, // true if target is ES2022
+    "esModuleInterop": true,
     "skipLibCheck": true
   }
 }
