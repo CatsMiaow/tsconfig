@@ -11,7 +11,9 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     // "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
+    "ignoreDeprecations": "5.0",
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
@@ -21,7 +23,6 @@
     "noUnusedParameters": true,
     "removeComments": true,
     "sourceMap": true,
-    "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": false, // true if target is ES2022
     "esModuleInterop": true,
     "skipLibCheck": true
