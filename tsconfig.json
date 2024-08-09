@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     // https://node.green
-    "target": "es2022",
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "target": "es2023",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "incremental": true,
     "declaration": true,
     "newLine": "lf",
@@ -12,8 +12,8 @@
     "allowUnusedLabels": false,
     // "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
-    "ignoreDeprecations": "5.0",
+    // "isolatedDeclarations": true,
+    "verbatimModuleSyntax": true,
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
@@ -24,7 +24,7 @@
     "noUnusedParameters": true,
     "removeComments": true,
     "sourceMap": true,
-    "useDefineForClassFields": false, // true if target is ES2022
+    "useDefineForClassFields": false,
     "esModuleInterop": true,
     "skipLibCheck": true
   }

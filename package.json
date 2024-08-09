@@ -7,7 +7,7 @@
     "tsconfig.json"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "scripts": {},
   "publishConfig": {
