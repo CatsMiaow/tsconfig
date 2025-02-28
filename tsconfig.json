@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     // https://node.green
-    "target": "es2022",
+    "target": "es2023",
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "incremental": true,
@@ -20,11 +20,14 @@
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
     // "noUncheckedIndexedAccess": true, //= Partial<Record<string, unknown>>
+    "noUncheckedSideEffectImports": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "useDefineForClassFields": false,
     "removeComments": true,
     "sourceMap": true,
-    "useDefineForClassFields": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "skipLibCheck": true
   }
